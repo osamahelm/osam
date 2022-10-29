@@ -1,0 +1,66 @@
+<html >
+  <head>
+    <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+<title> Yummy</title>
+    
+    </head>
+
+  <body>
+<section id="#contact" class="py-5 text-center">
+    <div class="container w-50 mx-auto mb-5">
+        <h2 class="text-head mb-5">ContacUs...</h2>
+   <div class="row">
+       <div class="col-md-6">
+           <input type="text" id="name" name="user" class="form-control" onblur="validateName()"  placeholder="Enter Your Name">
+       <div class="alert mt-1 alert-danger d-none" id="namealert" role="alert">Special Characters and Numbers not allowed</div>
+       </div>
+       <div class="col-md-6">
+        <input id="email" type="email" class="form-control" name="mail" placeholder="Enter Email" >
+<div class="alert mt-1 alert-danger d-none" id="emailalert" role="alert">
+    Enter valid email. *Ex: xxx@yyy.zzz
+      </div>
+       </div>
+       <div class="col-md-6">
+        <input type="text" class="form-control" id="num" placeholder="Enter phone">
+ <div class="alert mt-1 alert-danger  d-none" id="phonealert" role="alert">
+        Enter valid Phone Number</div>
+       </div>
+       <div class="col-md-6">
+        <input type="text" class="form-control" id="age" placeholder="Enter Age">
+  <div class="alert mt-1 alert-danger  d-none" id="agealert" role="alert">
+    	Enter valid Age</div>
+       </div>
+       <div class="col-md-6">
+         <input type="password" class="form-control" id="pass" placeholder="Enter Password">
+        <div class="alert mt-1 alert-danger  d-none" id="passwordalert" role="alert">
+	Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+       </div>
+       <div class="col-md-6">
+      <input type="password" class="form-control" id="repass" placeholder="Enter RePassword">
+    <div class="alert mt-1 alert-danger  d-none" id="repasswordalert" role="alert">
+	Enter valid Repassword
+				</div>
+       </div>
+      
+   </div>
+     <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+     </div>
+</section>
+
+
+
+
+
+
+
+   <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js">
+    
+    </script>
+    <script src="js/contact.js">
+
+    </script> 
+</body>
+</html>
